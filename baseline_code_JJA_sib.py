@@ -79,7 +79,7 @@ validation_folds = [
 
 predictors_by_cluster = {
     0: {
-        "biomass": ["cwt_stem_shb", "cwt_leaf_enf", "pool_leaf_enf", "cwt_agb_shb", "cwt_brwn_dbf","cwt_stem_dbf","cwt_seed_mze","cwt_froot_dbf","cwt_froot_enf","cwt_froot_shb"],
+        "biomass": ["cwt_stem_shb", "cwt_leaf_enf", "pool_leaf_enf"], #, "cwt_agb_shb", "cwt_brwn_dbf","cwt_stem_dbf","cwt_seed_mze","cwt_froot_dbf","cwt_froot_enf","cwt_froot_shb"],
         "soil": ["rsoil_c3g", "rsoil_enf", "rsoil_shb"],
         "hydro": ["ect_dbg", "ecmass_dbg", "egsmax_enf"],
     },
