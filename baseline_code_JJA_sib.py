@@ -53,8 +53,7 @@ keep_largest_component = True
 random_state = 42
 
 # ERA5 meteorological predictors
-# SiB4 predictors are added below using the same cluster-specific selection
-# as the Random Forest script.
+
 era5_met_vars = [
     "t2m",
     "d2m",
