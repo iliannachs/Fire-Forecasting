@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH -p genoa
+#SBATCH -t 01:30:00
+#SBATCH -n 1
+
+module purge
+module load 2023sib4
+
+setting=$1
+python exec/run_pipeline.py $setting
